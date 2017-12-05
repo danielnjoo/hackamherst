@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #614486;
 }
 
 section {
@@ -44,12 +44,12 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background-color: #F5699C;
+  background-color: #614486;
   min-height: 110vh;
 }
 
@@ -118,7 +118,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -217,7 +217,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #614486;
   color: #fff;
   padding: 30px 0;
 }
@@ -237,6 +237,26 @@ section {
 
 .footer h3 a {
   color: #fff;
+}
+
+/*#temp {
+  opacity: 0.5;
+}*/
+
+.video {
+  overflow: hidden;
+  /*border: 15px solid red;
+  margin-bottom: 40px;*/
+  position: relative;
+}
+
+.video-background {
+  width: 100%; /* width needs to be set to 100% */
+  height: 100%; /* height needs to be set to 100% */
+  /*position: absolute;*/
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 @media(max-width: 768px) {

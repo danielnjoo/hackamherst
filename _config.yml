@@ -19,25 +19,25 @@ tracking:
   google_analytics: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
-social:
-  twitter_handle: "MLHacks"
+# social:
+#   twitter_handle: "MLHacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  title:       "Hack Amherst | 3-4 March 2018"
+  description: "This is the website for Hack Amherst."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
-
+  name:        "Hack Amherst"
+  # description: "This is the website for Hack Amherst."
+  video:       "videos/01.mp4" 
+  date:        "3-4 March 2018"
+  location:    "Amherst, MA, United States"
   trust_badge:
-    year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
+    year:   "2018"  # season year
+    region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:

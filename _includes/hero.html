@@ -1,9 +1,13 @@
 <section class="hero">
-  <div class="wrapper text-center">
+  <div class="video">
+    <video loop class="video-background" autoplay="true" style="width: 1300px; height: 731px;" src="{{ site.event.video }}" />
+  </div>
+
+  <div class="wrapper text-center" id="temp">
     <h1 rel="title">{{ site.event.name }}</h1>
-    <h2 rel="description">{{ site.event.description }}</h2>
+
+    <!-- <h2 rel="description">{{ site.event.description }}</h2> -->
     <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
-    <hr>
     <div class="buttons">
       {% for link in site.event.hero.links %}
         {% if link.href %}
