@@ -3,18 +3,16 @@
     <video loop class="video-background" autoplay="true"  src="{{ site.event.video }}" />
   </div>
 
-  <div class="wrapper text-center" id="temp">
-    <h1 rel="title">{{ site.event.name }}</h1>
-
-    <!-- <h2 rel="description">{{ site.event.description }}</h2> -->
-    <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+  <div class="wrapper text-center">
+    <h1 rel="title">{{ site.event.name }}<span class="blinking-cursor">|</span></h1>
+    <h2 rel="date">{{ site.event.date }}</h3>
+    <h3 id="bottom" rel="location"> {{ site.event.location }}</h3>
     <div class="buttons">
       {% for link in site.event.hero.links %}
-        {% if link.href %}
           <a href="{{ link.href }}">{{ link.text }}</a>
-        {% elsif link.my_mlh %}
-          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
-        {% endif %}
+          {% if link.text=="Register" %}
+            <div style="padding:30px; "/>
+          {% endif %}
       {% endfor %}
     </div>
   </div>

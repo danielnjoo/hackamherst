@@ -12,7 +12,7 @@ layout: default
   </div>
 </section>
 
-<section class="info">
+<!-- <section class="info">
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -26,20 +26,33 @@ layout: default
       {% endfor %}
     </div>
   </div>
-</section>
+</section> -->
+
+
 
 <section class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        {% for item in site.event.faq %}
-        <div class="question col-xs-12 col-sm-12">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
+    <div id="accordion">
+      <h4 class="accordion-toggle">What is a hackathon?</h4>
+      <div class="accordion-content default">
+        <p>A hackathon is an invention marathon. Students come together to build cool software & hardware hacks over 24-48 hours. It’s very <a href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl">beginner friendly.</a></p>
+      </div>
+      <h4 class="accordion-toggle">Where is the event?</h4>
+      <div class="accordion-content">
+        <p>Amherst College! <a href="http://bit.ly/2B7ZlaJ">link</a></p>
+      </div>
+      <h4 class="accordion-toggle">Do I need to be a CS major?</h4>
+      <div class="accordion-content">
+        <p>Certainly not! In fact, we expressedly encourage non-CS majors to explore hacking!</p>
+      </div>
+      <h4 class="accordion-toggle">Do I need a team?</h4>
+      <div class="accordion-content">
+        <p>You can work in a group of up to 4, and don't worry if you don't come with one / a fully-formed one -- there'll be time for that at the event!</p>
+      </div>
+      <h4 class="accordion-toggle">Code of conduct?</h4>
+      <div class="accordion-content">
+        <p>Yes, and it's <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p>
       </div>
     </div>
   </div>
