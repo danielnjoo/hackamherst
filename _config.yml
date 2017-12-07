@@ -45,21 +45,21 @@ event:
     description: >
       Hack Amherst is a hackathon hosted at Amherst College...
 
-  # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+  # # Info Sections
+  # info:
+  #   sections:
+  #     - image: "images/image1.png"
+  #       title: "LEARN."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image2.png"
+  #       title: "BUILD."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image3.png"
+  #       title: "SHARE."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
