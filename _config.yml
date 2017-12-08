@@ -18,10 +18,6 @@ style:
 tracking:
   google_analytics: "UA-43729070-14"
 
-# Let people connect & engage with you through social media.
-# social:
-#   twitter_handle: "MLHacks"
-
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "Hack Amherst | 3-4 March 2018"
@@ -40,26 +36,6 @@ event:
         href: "https://docs.google.com/forms/d/e/1FAIpQLSe4Jukf1TwC144flKzcHoE1VCWsZS6IEYifX4LKpbRj0ASSAQ/viewform?usp=sf_link"
       - text: "Sponsor"
         href: "mailto:dnjoo20@amherst.edu"
-
-  about:
-    description: >
-      Hack Amherst is a hackathon hosted at Amherst College...
-
-  # # Info Sections
-  # info:
-  #   sections:
-  #     - image: "images/image1.png"
-  #       title: "LEARN."
-  #       description: >
-  #         We can write something nice with a graphic (as above) to make the event more appealing.
-  #     - image: "images/image2.png"
-  #       title: "BUILD."
-  #       description: >
-  #         We can write something nice with a graphic (as above) to make the event more appealing.
-  #     - image: "images/image3.png"
-  #       title: "SHARE."
-  #       description: >
-  #         We can write something nice with a graphic (as above) to make the event more appealing.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --

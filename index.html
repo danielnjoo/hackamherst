@@ -6,29 +6,25 @@ layout: default
 
 <section class="about">
   <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="fa fa-calendar"/>
+        <h3>Schedule</h3>
+        <p>To be announced</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="fa fa-trophy"/>
+        <h3>Prizes</h3>
+        <p>To be announced</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="fa fa-users"/>
+        <h3>Judges</h3>
+        <p>To be announced</p>
+      </div>
     </div>
   </div>
 </section>
-
-<!-- <section class="info">
-  <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section> -->
-
-
 
 <section class="faq">
   <div class="container">
@@ -55,5 +51,13 @@ layout: default
         <p>Yes, and it's <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="sponsor">
+  <div class="container">
+    <h1 class="text-center">Sponsors</h1>
+    <!-- https://stackoverflow.com/questions/8392211/html-span-align-center-not-working -->
+    <p><a href="mailto:dnjoo20@amherst.edu">Contact</a> us if you're interested in sponsoring this event!</p>
   </div>
 </section>

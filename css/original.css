@@ -12,7 +12,7 @@
 
 * {
   font-family: "Open Sans";
-  font-weight: 600;
+  /*font-weight: 600;*/
 }
 
 body {
@@ -25,6 +25,9 @@ section {
   z-index: 10;
 }
 
+h1 {
+  margin-bottom: 30px;
+}
 /*
   * Blinking Cursor
 */
@@ -79,26 +82,6 @@ section {
   }
 }
 
-/*
-Trust Badge
-*/
-
-/*#mlh-trust-badge {
-  position: relative;
-  z-index: 1000;
-}*/
-
-#mlh-trust-badge {
-  display: block;
-  max-width: 100px;
-  min-width: 60px;
-  position: fixed;
-  right: 50px;
-  top: 0;
-  width: 10%;
-  z-index: 10000;
-}
-
 
 /*
 Hero Section
@@ -150,12 +133,13 @@ Hero Section
 .hero .wrapper h2 {
   font-size: 28px;
   font-weight: 200;
+  color: #614486
 }
 
 .hero .wrapper h3 {
   font-size: 20px;
   font-weight: 200;
-  /*padding-bottom: 35px;*/
+  color: #614486
 }
 
 .hero .wrapper #bottom {
@@ -186,10 +170,6 @@ Hero Section
   color: #fff;
   transition: all 0.2s ease;
 }
-
-/*.hero .buttons a:not(:last-child) {
-  margin-bottom: 100px;
-}*/
 
 .hero .video {
   width: 100%;
@@ -222,56 +202,33 @@ About Section
 .about {
   border-width: 15px 0;
   background-color: #fff;
-  padding: 130px 0;
+  padding: 30px 0;
   position: relative;
   margin-top: -80px;
 }
 
+
+.about .row {
+  margin: auto;
+}
+
+.about span {
+  font-size: 40px;
+  color: #614486;
+  text-align: center;
+  max-width:100%;
+}
+
+.about h3 {
+  font-family: "Open Sans";
+  max-width:100%;
+}
+
 .about p {
-  color: #0f2c34;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.6em;
-  letter-spacing: -0.3px;
+  font-size: 14px;
+   max-width:100%;
+   color: black;
 }
-
-.about p span {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-
-/*
-Info Section
- */
-
-
-.info {
-  background-color: #fff;
-  margin-top: 15px;
-  padding: 100px 0;
-  position: relative;
-}
-
-.info .item {
-  padding: 20px;
-}
-
-.info .item h1 {
-  font-family: "Montserrat";
-  font-size: 45px;
-  font-weight: 700;
-  margin: 20px 0;
-}
-
-.info .item img {
-  max-width: 220px;
-}
-
-.info .item p {
-  font-size: 20px;
-}
-
 
 /*
  * FAQ Section
@@ -280,8 +237,14 @@ Info Section
 .faq {
   background-color: #fff;
   margin-top: 15px;
-  padding: 50px 0;
+  margin-bottom: 15px;
+  padding: 30px 0;
   position: relative;
+  color: #614486;
+}
+
+.faq p {
+  color: black;
 }
 
 .accordion-toggle {
@@ -296,6 +259,16 @@ Info Section
 }
 .accordion-content {display: none; }
 .accordion-content.default {display: block; }
+
+
+.sponsor {
+  background-color: #fff;
+  padding: 30px 0;
+  color: #614486;
+}
+.sponsor .container {
+  text-align:center;
+}
 
 /*
  * Footer Section
@@ -324,12 +297,7 @@ Info Section
   color: #fff;
 }
 
-
-/*
- * Social Media
- */
-
-.fa {
+.footer .fa {
   padding: 20px;
   margin: auto;
   text-align: center;
@@ -349,25 +317,3 @@ Info Section
   background: #8e5636;
   color: white;
 }
-
-
-
-
-/*
-@media (max-width: 768px) {
-  .hero .buttons a {
-    border-width: 8px;
-    display: block;
-    font-size: 20px;
-    margin: 5px;
-  }
-
-  .hero img {
-    width: 250px;
-  }
-
-  .hero hr {
-    border-top-width: 8px;
-    top: -8px;
-  }
-}*/
