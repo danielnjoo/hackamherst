@@ -144,6 +144,7 @@ Hero Section
 
 .hero .wrapper #bottom {
   padding-bottom: 35px;
+  margin-top:10px;
 }
 
 .hero .buttons {
@@ -207,7 +208,6 @@ About Section
   margin-top: -80px;
 }
 
-
 .about .row {
   margin: auto;
 }
@@ -269,6 +269,9 @@ About Section
 .sponsor .container {
   text-align:center;
 }
+.sponsor p {
+  color: black;
+}
 
 /*
  * Footer Section
@@ -316,4 +319,15 @@ About Section
 .fa-envelope {
   background: #8e5636;
   color: white;
+}
+
+@media only screen and (max-width: 700px) {
+
+.about .col-sm-4 {
+  padding-bottom: 30px;
+}
+
+.about #bottom {
+  padding-bottom: 0px;
+}
 }
