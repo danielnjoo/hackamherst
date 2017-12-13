@@ -33,7 +33,7 @@ event:
   hero:
     links:
       - text: "Register"
-        href: "https://docs.google.com/forms/d/e/1FAIpQLSe4Jukf1TwC144flKzcHoE1VCWsZS6IEYifX4LKpbRj0ASSAQ/viewform?usp=sf_link"
+        href: "https://docs.google.com/forms/d/e/1FAIpQLSdPJFotXuZ9YrvKFHpEP_4cbCGANggMKp6h74H5ciNaoLPVKw/viewform?usp=sf_link"
       - text: "Sponsor"
         href: "mailto:sponsors@hackamherst.com"
 
