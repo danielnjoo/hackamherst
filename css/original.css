@@ -119,7 +119,7 @@ Hero Section
 
 .hero .wrapper h1 {
   background: #fff;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   display: inline-block;
   font-size: 40px;
   font-weight: 800;
@@ -323,11 +323,11 @@ About Section
 
 @media only screen and (max-width: 700px) {
 
-.about .col-sm-4 {
-  padding-bottom: 30px;
-}
+  .about .col-sm-4 {
+    padding-bottom: 30px;
+  }
 
-.about #bottom {
-  padding-bottom: 0px;
-}
+  .about #bottom {
+    padding-bottom: 0px;
+  }
 }
