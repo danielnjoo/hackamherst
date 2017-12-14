@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body style="position:relative;" data-spy="scroll" data-target="#myNavbar" data-offset="50" >
+
+  <script type="text/javascript">
+  (function($) {
+    $('body').scrollspy({ target: '#myNavbar' })
+  })(jQuery);
+
+  </script>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid" id="#myNavBar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">HackAmherst</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a class="nav-link active" href="#main">Main</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#faq">FAQ</a></li>
+          <li><a class="nav-link" href="#sponsors">Sponsors</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    {{ content }}
+
+    <section class="footer">
+      <div class="container text-center">
+        <h1><a href="http://www.hackamherst.com" style="color:white;">{{ site.event.name }}</a></h1>
+        <hr>
+        <div class="social-media">
+          <a href="https://www.facebook.com/HackAmherst-334912166987840/" class="fa fa-facebook"></a>
+          <a href="mailto:dnjoo20@amherst.edu" class="fa fa-envelope"></a>
+          <!-- <a href="#" class="fa fa-twitter"></a> -->
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+  </body>
+</html>
