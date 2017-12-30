@@ -28,9 +28,34 @@ section {
 h1 {
   margin-bottom: 30px;
 }
+
 /*
   * Blinking Cursor
 */
+
+#mission {
+  margin-bottom: 50px;
+  /* font-size: 24px; */
+}
+#mission p {
+  font-size: 16px;
+  line-height: 20px;
+}
+#blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+#blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
 
 .blinking-cursor {
   font-weight: 100;
@@ -284,10 +309,16 @@ About Section
 }
 
 .footer img {
-  max-width: 250px;
+  max-width: 125px;
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 
+.footer h2 {
+  /* margin-top:px; */
+  margin-bottom: 20px;
+
+}
 .footer h3 {
   font-family: "Montserrat";
   font-size: 16px;
@@ -308,17 +339,28 @@ About Section
   margin: 5px 2px;
   border-radius: 50%;
   width: 54px;
+  color: white;
 }
 .fa:hover {
     opacity: 0.7;
 }
+.footer .fa-github {
+  background: #1d1d1e;
+  padding: 8px;
+  width: 30px;
+}
+.footer .fa-linkedin{
+  background: #0077B5;
+  padding: 8px;
+  width: 30px;
+}
+
+
 .fa-facebook {
   background: #3B5998;
-  color: white;
 }
 .fa-envelope {
   background: #8e5636;
-  color: white;
 }
 
 @media only screen and (max-width: 700px) {
