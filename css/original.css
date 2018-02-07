@@ -29,6 +29,11 @@ h1 {
   margin-bottom: 30px;
 }
 
+img:hover {
+  opacity: 0.8;
+}
+
+
 /*
   * Blinking Cursor
 */
@@ -296,6 +301,9 @@ About Section
 }
 .sponsor p {
   color: black;
+}
+.sponsor .row {
+  padding-bottom: 40px;
 }
 
 /*
