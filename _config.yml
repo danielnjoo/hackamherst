@@ -26,10 +26,10 @@ event:
   location:    "Amherst, MA, United States"
   hero:
     links:
-      - text: "Register"
-        href: "javascript:AlertIt()"
-      - text: "Sponsor"
-        href: "https://drive.google.com/file/d/1HovcWP55Bhi5GKGq7fvH3pVDWAWFL0tW/view?usp=sharing"
+      - text: "Follow Us"
+        href: "https://www.facebook.com/HackAmherst/"
+      # - text: "Mailing List"
+      #   href: ""
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --

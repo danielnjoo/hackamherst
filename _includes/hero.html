@@ -1,26 +1,32 @@
 <section class="hero" id="main">
 
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
   function AlertIt() {
     alert('Registration is now closed, follow us on Facebook and stay tuned for next year\'s hack!')
   }
-  </script>
+  </script> -->
 
   <div class="video">
     <video loop class="video-background" autoplay="true"  src="{{ site.event.video }}" />
   </div>
 
   <div class="wrapper text-center">
+    <div class="overlay">
+    </div>
     <h1 rel="title">{{ site.event.name }}<span class="blinking-cursor">|</span></h1>
-    <h2 rel="date">{{ site.event.date }}</h2>
+    <h2 rel="date" style="text-decoration:line-through">{{ site.event.date }}</h2>
     <h3>Amherst College</h3>
     <h3 id="bottom" rel="location"> {{ site.event.location }}</h3>
+
+    <p style="font-weight:bold; font-size:18px; background:rgba(255, 255, 255, 0.3); color:#614486">HackAmherst I was a success, stayed tuned for II (tenatively Fall 2018)</p>
+    <!-- <p style="font-weight:bold; font-size:18px"></p> -->
     <div class="buttons">
       {% for link in site.event.hero.links %}
           <a href="{{ link.href }}">{{ link.text }}</a>
+          <div class="container" style="padding:20px; "></div>
           {% if link.text=="Register" %}
-            <div style="padding:30px; "/>
+
           {% endif %}
       {% endfor %}
     </div>
